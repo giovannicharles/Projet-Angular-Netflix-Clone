@@ -1,0 +1,57 @@
+:root{
+  --red-primary: #e50914;
+  --red-secondary:#881d24;
+  --dark1:#221f1f;
+  --white: #f5f5f1;
+}
+.container-fluid{
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/04ef06cc-5f81-4a8e-8db0-6430ba4af286/web/CM-en-20250224-TRIFECTA-perspective_4172a6e6-3b16-4ca7-822a-d8b4deedf8b5_small.jpg);
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  padding:  5% 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.login{
+  max-width: 500px;
+  margin: 0 auto;
+}
+form{
+  background: #000000ba;
+  padding:  5% 10%;
+  gap: 1rem;
+}
+.mybuttons button:nth-child(1){
+  background-color: var(--red-primary);
+  border: none;
+  padding: .6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.mybuttons button:last-child{
+  background-color: #f5f5f164;
+  border: none;
+  padding: .6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 20px;
+}
+button{
+  width: 100%;
+}
+h2{
+  font-size: 2.75rem;
+  font-weight: 600;
+}
+input{
+  padding: .75rem 1rem;
+  background: none;
+  border: solid 3px var(--white);
+}
+
+

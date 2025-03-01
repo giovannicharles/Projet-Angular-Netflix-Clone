@@ -1,0 +1,31 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "description": "Une série sur des événements étranges dans une petite ville.",
+      "image": "https://via.placeholder.com/300x450",
+      "type": "series",
+      "genre": ["Science-Fiction", "Horreur"],
+      "releaseYear": 2016
+    },
+    {
+      "id": 2,
+      "title": "The Witcher",
+      "description": "Un chasseur de monstres parcourt un monde médiéval.",
+      "image": "https://via.placeholder.com/300x450",
+      "type": "series",
+      "genre": ["Fantasy", "Action"],
+      "releaseYear": 2019
+    },
+    {
+      "id": 3,
+      "title": "Inception",
+      "description": "Un voleur utilise la technologie pour infiltrer les rêves.",
+      "image": "https://via.placeholder.com/300x450",
+      "type": "movie",
+      "genre": ["Science-Fiction", "Thriller"],
+      "releaseYear": 2010
+    }
+  ]
+}

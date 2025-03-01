@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+  --red-primary: #e50914;
+  --red-secondary:#881d24;
+  --dark1:#221f1f;
+  --white: #f5f5f1;
+}
+body{
+  background: var(--dark1);
+}
+body nav{
+  background: var(--dark1);
+}
