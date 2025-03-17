@@ -1,57 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+<nav class="navbar navbar-expand sticky-top px-5 py-4">
 
-  <nav class="navbar navbar-expand sticky-top bg-dark border-bottom px-5 py-3" data-bs-theme="dark">
-
-    <div class="container-fluid d-flex justify-content-between align-content-center">
-      <div class="logo">
-        <a class="navbar-brand fs-2 fw-semibold logo" href="#">
-          <img src="netflix.png" priority class="d-inline-block align-text-top">
-          <!-- NETFLIX -->
-        </a>
-      </div>
-
-      <!-- ------------------------------------------------- -->
-      <div class="collapse navbar-collapse ms-5 d-flex justify-content-end"         id="navbarSupportedContent">
-          <div class="ms-auto">
-            <ul class="navbar-nav ">
-              <li class="nav-item me-4">
-                <a class="nav-link" routerLink="/">Home</a>
-              </li>
-              <li class="nav-item me-4">
-                <a class="nav-link" >Movies</a>
-              </li>
-              <li class="nav-item me-4">
-                <a class="nav-link" >Séries</a>
-              </li>
-              <li class="nav-item me-4">
-                <a class="nav-link" >My list</a>
-              </li>
-            </ul>
-          </div>
-<!-- ------------------------------------------------- -->
-          <div class="ms-auto">
-            <form class="d-flex input-group" role="search">
-              <span class="input-group-text">
-                <!-- <fa-icon icon="search"></fa-icon> -->
-              </span>
-              <input name="search"
-              class="form-control me-2"
-              type="search"
-              placeholder="Search" aria-label="Search">
-            </form>
-          </div>
-
-<!-- ------------------------------------------------- -->
-      </div>
+  <div class="container d-flex justify-content-between align-content-center">
+    <div class="logo">
+      <a class="navbar-brand fw-semibold" id="logo" href="#">
+        <img src="white-logo.svg"class="d-inline-block align-text-center " >
+      </a>
     </div>
-  </nav>
 
-</body>
-</html>
+    <!-- ------------------------------------------------- -->
+    <div class="collapse navbar-collapse ms-5 d-flex justify-content-end"         id="navbarSupportedContent">
+        <div class="ms-auto">
+          <ul class="navbar-nav ">
+            <li class="nav-item me-4">
+              <a class="nav-link text-white fw-semibold fs-6 active " routerLink="/">Home</a>
+            </li>
+            <li class="nav-item me-4 ">
+              <a class="nav-link text-white fw-semibold fs-6" >Features</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white fw-semibold fs-6" >Overview</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white fw-semibold fs-6" >Pricing</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white fw-semibold fs-6" >Team</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white fw-semibold fs-6" >Reviews</a>
+            </li>
+          </ul>
+        </div>
+<!-- ------------------------------------------------- -->
+        <div class="ms-auto">
+          <button class="btn btn-lg btn-get-started fs-6 fw-semibold">Get It Now</button>
+        </div>
+
+<!-- ------------------------------------------------- -->
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,38 @@
+
+:root{
+  --blue-primary-color: #061e5c;
+  --violet-secondary-color:#5034fc ;
+}
+.my-features{
+  background-color: #fff;
+}
+.section-title .bagde{
+  background-color: #5034fc ;
+  color: beige;
+}
+.section-title h2{
+  color:#061e5c ;
+
+}
+.crd{
+  width: 300px;
+  background: #fff;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+}
+
+.footer{
+  margin: 1rem 0;
+}
+
+.footer h2{
+  color: #061e5c;
+  opacity: .95;
+}
+.footer p{
+  color: #061e5c;
+  opacity: .4;
+}

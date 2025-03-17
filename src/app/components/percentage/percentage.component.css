@@ -1,0 +1,19 @@
+:root{
+  --blue-primary-color: #061e5c;
+  --violet-secondary-color:#5034fc ;
+}
+.percentage{
+  background-color: #061e5c;
+
+}
+span{
+  background-color: #fff;
+  color: #061e5c;
+}
+h3{
+  margin-top: 2.2rem !important;
+}
+p{
+  color: #fff;
+  opacity: .85;
+}

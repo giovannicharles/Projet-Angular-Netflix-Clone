@@ -1,0 +1,31 @@
+:root{
+  --blue-primary-color: #061e5c;
+  --violet-secondary-color:#5034fc ;
+}
+
+p{
+  width: 65%;
+  line-height: 2rem;
+  color: #061e5c;
+  opacity: .7;
+}
+span{
+  background-color: #5034fc;
+  font-weight: 600;
+}
+h2{
+  width: 70%;
+  letter-spacing: 1px;
+  color: #061e5c;
+}
+.customer{
+  background-color: #fff;
+}
+
+button{
+  background-color: #5034fc;
+  color: #fff;
+}
+img{
+  width: 80% !important;
+}
